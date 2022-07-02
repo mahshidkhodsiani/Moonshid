@@ -31,33 +31,56 @@
     </ul>
   </div>
 </nav>
-  
+
+<div class="sideMenu">
+    Languages:
+  <a href="#">
+    <img src="./img/download.jpg">
+  </a>
+  <a href="#" >
+    <img src="./img/download.png">
+  </a>
+  <a href="#" >
+    <img src="./img/images.png">
+  </a>
+  <a href="#" >
+    <img src="./img/images.jpg">
+  </a>
+</div>  
+
   <br>
   <div class="container">
     <h1>Online Learning</h1>
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
+        <div class="numbertext">1 / 4</div>
         <img src="./img/HD-wallpaper-dreams-dont-work-unless-you-do-ultra-computers-hardware-internet-laptop-desk-dream-work-technology-computer-office-smartphone-macbook-topview-workplace-woodentable-hotdrink.jpg" style="width:100%">
         <div class="text">Caption Text</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
+        <div class="numbertext">2 / 4</div>
         <img src="./img/tumblr_nay1gtEjIH1tzbkf0o1_1280.jpg" style="width:100%">
         <div class="text">Caption Two</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
+        <div class="numbertext">3 / 4</div>
         <img src="./img/photo-1614624532983-4ce03382d63d.jpg" style="width:100%">
         <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="./img/973e97b77730c5f2f353b4f45302d8c9.png" style="width:100%">
+        <div class="text">Caption four</div>
       </div>
 
     </div>
     <br>
 
     <div style="text-align:center">
+      <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
@@ -107,6 +130,47 @@
     </div>
   </div>
 </div>
+
+<div class="card">
+  <div class="card-content">
+    <div id="card1" class="row">
+
+        <div class="left-align col m6">
+          <a href="./info/informations.php"><h3>5 Benefits to Group Learning</h3></a>
+          When a student is working on their own they have only their mind to rely on. 
+          This isn’t a bad thing in and of itself but, 
+          if a student is fixated on a problem they don’t understand they may be too embarrassed to ask for help from a teacher. 
+          One of the benefits of small group learning is the ability to speak with your peers for help
+        </div>
+
+        <div class="right-align col m6">
+          <img height="300px" width="350px" src="./img/coffee-cup-books-kofe-chashka.jpg">
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-content">
+    <div id="card1" class="row">
+
+        <div class="left-align col m6">
+          <a href="./info/informations.php"><h3>5 Benefits to Group Learning</h3></a>
+          When a student is working on their own they have only their mind to rely on. 
+          This isn’t a bad thing in and of itself but, 
+          if a student is fixated on a problem they don’t understand they may be too embarrassed to ask for help from a teacher. 
+          One of the benefits of small group learning is the ability to speak with your peers for help
+        </div>
+
+        <div class="right-align col m6">
+          <img height="300px" width="350px" src="./img/istockphoto-1093929298-170667a.jpg">
+        </div>
+
+    </div>
+  </div>
+</div>
+
 <script>
     $( document ).ready(function() {
     console.log( "ready!" );
@@ -116,5 +180,16 @@
 </script>
 
 </div>
+<footer>
+  <div>
+    Author
+  </div>
+  <div>
+    <span>My Email : 
+      mahshidkhodsiani@yahoo.com
+    </span>
+    <i class="material-icons">email</i>
+  </div>
+</footer>
 </body>
 </html>
